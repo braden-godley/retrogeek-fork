@@ -44,12 +44,6 @@
 				the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>&nbsp;|&nbsp;' );
 			}
 			?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'retrogeek' ) ); ?>" class="imprint">
-				<?php
-				/* translators: %s: WordPress */
-				printf( esc_attr__( 'Proudly powered by %s and RetroGeek-Theme', 'retrogeek' ), 'WordPress' );
-				?>
-			</a>
 			</div><!-- .site-info -->
 		</div><!-- eight columns -->
 	</div><!-- row -->
